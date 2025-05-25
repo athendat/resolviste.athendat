@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://resolviste.com/sitemap-index.xml
+
+# Block unnecessary files for SEO
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_astro/
+
+# Allow important resources
+Allow: /images/
+Allow: /favicon.svg
+Allow: /robots.txt
+
+# Crawl delay to be server-friendly
+Crawl-delay: 1
+
+# Additional directives for better SEO
+Host: resolviste.com
